@@ -6,6 +6,6 @@ control "workshop-1.0" do                                # A unique ID for this 
    its('content') { should match 'Port 22' }
    its('content') { should match 'X11Forwarding no' }
    its('content') { should match 'AllowTcpForwarding no' }
-   its('content') { should match 'PermitRootLogin prohibit-password' }
+   its('content') { should match 'PermitRootLogin forced-commands-only' }
   end
 end
