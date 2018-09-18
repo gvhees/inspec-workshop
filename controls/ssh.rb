@@ -1,3 +1,3 @@
-describe command('ps -ax | grep -v grep | grep syslogd') do
-  its('stdout') { should match /^\s*\d*.*\/usr\/sbin\/syslogd/ }
+describe processes(Regexp.new("auditd$")) do
+  its('entries.length') { should eq 1 }
 end
