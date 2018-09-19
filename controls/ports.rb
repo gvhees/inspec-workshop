@@ -16,3 +16,4 @@ end
 describe port(23) do
   it { should_not be_listening }
 end
+end

@@ -7,3 +7,4 @@ end
 describe processes(Regexp.new("mongod --dbpath=/opt/splunk/var/lib/splunk/kvstore/mongo")) do
   its('entries.length') { should eq 1 }
 end
+end
