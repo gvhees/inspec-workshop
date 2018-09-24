@@ -1,4 +1,5 @@
 control "sshcheck" do
+  desc "Audit parameters in SSHD config"
   title "SSHD Config"
   describe file('/etc/ssh/sshd_config') do
    its('content') { should match 'Port 22' }

@@ -1,8 +1,8 @@
 name: inspec-workshop
-title: InSpec Test Profile
+title: InSpec Profile for demo GKC
 maintainer: Ger van Hees
 copyright: Ger
 copyright_email: ger.vanhees@gkc.co
 license: Apache-2.0
-summary: Just testing how inspec works
+summary: Just demoing how inspec works
 version: 0.1.0
